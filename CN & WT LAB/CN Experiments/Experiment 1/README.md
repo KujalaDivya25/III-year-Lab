@@ -8,3 +8,7 @@ i. character count ii. character stuffing and iii. bit stuffing
 1.
 2.
 3.
+
+### Output
+
+![output](birthday1.jpg)
