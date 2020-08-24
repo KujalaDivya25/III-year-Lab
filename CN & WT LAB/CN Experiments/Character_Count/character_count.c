@@ -11,6 +11,7 @@ int main() {
 	char charlengths[100][100] = {};
 	char s[100][100] = {};
 	for(i=0;i<n;i++) {
+	     printf("Frame %d:",i+1);
 	     scanf("%s", s[i]);
 	}
 	printf("AT THE SENDER\n");
