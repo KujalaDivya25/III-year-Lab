@@ -20,12 +20,12 @@ When the data link layer at the destination sees the character count,it knows ho
 
 ### Output
 
-![output](character_stuffing_output.png)
+![output](character_stuffing.png)
 
 #### Bit Stuffing
 1.The third method allows data frames to contain an arbitrary number of bits and allows character codes with an arbitrary number of bits per character. At the start and end of each frame is a flag byte consisting of the special bit pattern 01111110 . Whenever the sender's data link layer encounters five consecutive 1s in the data, it automatically stuffs a zero bit into the outgoing bit stream. This technique is called bit stuffing. When the receiver sees five consecutive 1s in the incoming data stream, followed by a zero bit, it automatically destuffs the 0 bit. The boundary between two frames can be determined by locating the flag pattern.
 
 ### Output
 
-![output](bit_stuffing_output.png)
+![output](bit_stuffing.png)
 
