@@ -18,7 +18,7 @@ int main() {
 	int nodes[100][100],total_nodes;
 	printf("Enter total number of nodes:");
 	scanf("%d",&total_nodes);
-	printf("Enter the adjacent matrix");
+	printf("Enter the adjacent matrix\n");
 	for(i=1;i<=total_nodes;i++) {
 		for(j=1;j<=total_nodes;j++) {
 			printf("Enter the connecting node %d -> %d: ",i,j);
