@@ -1,4 +1,4 @@
-# Experimet 3
+# Experimet 9
 
 ## Aim of the Experiment
 Write a C program for frame sorting technique used in buffers
