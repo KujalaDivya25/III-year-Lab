@@ -21,3 +21,14 @@ Step 7: In Nmap output column we can see OS version,type of data transmitted.
 
 Step 8: Thats how Nmap scan runs.
 
+
+### Output
+
+#### Pingscan
+
+![output](PingScan.png)
+
+#### Intensescan
+
+![output](IntenseScan.png)
+
